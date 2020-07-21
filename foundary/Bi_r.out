@@ -1,0 +1,81 @@
+ONCVPSP  (Optimized Norm-Conservinng Vanderbilt PSeudopotential)
+fully-relativistic version 3.3.1 12/12/2017
+
+
+While it is not required under the terms of the GNU GPL, it issuggested that you cite the arXiv preprint or Phys. Rev. B paperthrough which you found this code in any publication using thesepseudopotentials.  The reference will be here when available.
+
+
+# ATOM AND REFERENCE CONFIGURATION
+# atsym  z   nc   nv     iexc    psfile
+  Bi 83.00   12    3       4      upf 
+#
+#   n    l    f              energy (Ha)
+#   n    l    f        l+1/2             l-1/2
+    1    0    2.00    -3.3266370D+03
+    2    0    2.00    -5.9714547D+02
+    2    1    6.00    -4.8836618D+02    -5.7363201D+02
+    3    0    2.00    -1.4411846D+02
+    3    1    6.00    -1.1442374D+02    -1.3351562D+02
+    3    2   10.00    -9.3048292D+01    -9.7094548D+01
+    4    0    2.00    -3.3074279D+01
+    4    1    6.00    -2.3762082D+01    -2.8466886D+01
+    4    2   10.00    -1.5403750D+01    -1.6281602D+01
+    4    3   14.00    -5.4956679D+00    -5.6974087D+00
+    5    0    2.00    -5.7772063D+00
+    5    1    6.00    -3.2760291D+00    -4.1816535D+00
+    5    2   10.00    -9.4601043D-01    -1.0561170D+00
+    6    0    2.00    -5.2904241D-01
+    6    1    3.00    -1.4946848D-01    -2.2005613D-01
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+    3
+#
+#   l,   rc,     ep,   ncon, nbas, qcut
+    0   3.59885  -0.53202    5    8   3.57648
+    1   3.68574  -0.16798    5    8   3.63328
+    2   3.00923  -0.99525    5    8   6.40958
+    3   3.35027   0.23560    5    8   5.75105
+#
+# LOCAL POTENTIAL
+# lloc, lpopt,  rc(5),   dvloc0
+    4    5   2.76817      0.00000
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl
+    0    2   1.12594
+    1    2   1.11002
+    2    2   1.38825
+    3    2   1.25529
+#
+# MODEL CORE CHARGE
+# icmod, fcfact, rcfact
+    0   0.00000   0.00000
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+   -5.00    3.00    0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+    6.00    0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+    0
+# nvcnf
+#   n    l    f
+
+
+Reference configufation results
+  iterations    22
+  all-electron total energy (Ha)   -2.15814610D+04
+
+Begin loop to  construct optimized pseudo wave functions
+and semi-local pseudopoentials for all angular momenta
+
+  All-electron reference function large-component-only renormalization
+    cnorm=   1.00005785  l=  0  n=  6  kap= -1
+
+wellstate: ERROR iteration failed to  converge
+wellstate: ERROR well potential iteration failed to converge, n=  7 l=  0
