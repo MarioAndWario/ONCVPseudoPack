@@ -2,10 +2,10 @@
 # This script extract the input for ONCVPSP from SG15 PP library (v1.2)
 # http://www.quantum-simulation.org/potentials/sg15_oncv/
 # and use ONCVPSP v3.3.1 + libxc v3.0.1 to produce ONCVPSP PBE pseudopotentials (SR+FR)
-# and store the pseudopotentials in /global/homes/m/mwu/PP/ONCVPSP/Abinit_PP/PBE
+# and store the pseudopotentials in ~/PP/ONCVPSP/Abinit_PP/PBE
 
-INPUT_DIR="../INPUT"
-OUTPUT_DIR="../PBE"
+INPUT_DIR="../../INPUT"
+OUTPUT_DIR="../../PBE"
 functional="PBE"
 surfix="SG15v1.2"
 echo "Generating PP with ${functional} functional..."
