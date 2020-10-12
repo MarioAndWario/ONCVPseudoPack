@@ -11,35 +11,35 @@
     3    2   10.00
     4    0    2.00
     4    1    6.00
-    5    0    2.00
     4    2   10.00
+    5    0    2.00
 #
 # PSEUDOPOTENTIAL AND OPTIMIZATION
 # lmax
     2
 #
 #   l,   rc,      ep,       ncon, nbas, qcut
-    0   2.33990  -3.89242    5    8   6.31277
-    1   2.66799  -2.46101    5    8   6.26850
-    2   3.04207  -0.43118    5    8   5.75293
+    0   1.25000  -3.89242    4    8  10.00000
+    1   1.30000  -2.46101    4    8  10.00000
+    2   1.35000  -0.43118    4    8  10.00000
 #
 # LOCAL POTENTIAL
 # lloc, lpopt,  rc(5),   dvloc0
-    4    5   1.67550      0.00000
+    4    5   1.25000      0.00000
 #
 # VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
 # l, nproj, debl
     0    2   3.68443
     1    2   2.41752
-    2    2   1.20956
+    2    2   2.00000
 #
 # MODEL CORE CHARGE
 # icmod, fcfact, rcfact
-    0   0.00000   0.00000
+    3   6.00000   1.26000
 #
 # LOG DERIVATIVE ANALYSIS
 # epsh1, epsh2, depsh
-   -5.00    3.00    0.02
+  -12.00   12.00    0.02
 #
 # OUTPUT GRID
 # rlmax, drl
