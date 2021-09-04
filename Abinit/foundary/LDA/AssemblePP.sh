@@ -4,7 +4,7 @@
 # and use ONCVPSP v3.3.1 + libxc v3.0.1 to produce ONCVPSP PBE pseudopotentials (SR+FR)
 # and store the pseudopotentials in ~/PP/ONCVPSP/Abinit_PP/LDA
 
-INPUT_DIR="../../pbe_s_sr"
+INPUT_DIR="../../INPUT"
 OUTPUT_DIR="../../LDA"
 functional="LDA"
 echo "Generating PP with ${functional} functional..."
