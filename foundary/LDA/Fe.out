@@ -1,0 +1,130 @@
+ONCVPSP  (Optimized Norm-Conservinng Vanderbilt PSeudopotential)
+scalar-relativistic version 3.3.1 12/12/2017
+
+
+While it is not required under the terms of the GNU GPL, it is
+suggested that you cite D. R. Hamann, Phys. Rev. B 88, 085117 (2013)
+in any publication utilizing these pseudopotentials.
+
+
+# ATOM AND REFERENCE CONFIGURATION
+# atsym  z   nc   nv     iexc    psfile
+  Fe 26.00    3    4       3      upf 
+#
+#   n    l    f        energy (Ha)
+    1    0    2.00    -2.5663121D+02
+    2    0    2.00    -3.0057380D+01
+    2    1    6.00    -2.5651137D+01
+    3    0    2.00    -3.4364813D+00
+    3    1    6.00    -2.2022614D+00
+    4    0    2.00    -2.0171031D-01
+    3    2    6.00    -2.8482441D-01
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+    2
+#
+#   l,   rc,      ep,       ncon, nbas, qcut
+    0   2.08667  -3.43648    5    8   6.68986
+    1   2.11172  -2.20226    5    8   7.45338
+    2   2.06193  -0.28482    5    8   8.55864
+#
+# LOCAL POTENTIAL
+# lloc, lpopt,  rc(5),   dvloc0
+    4    5   1.87426      0.00000
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl
+    0    2   3.23477
+    1    2   2.97009
+    2    2   1.24375
+#
+# MODEL CORE CHARGE
+# icmod, fcfact, rcfact
+    0   0.00000   0.00000
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+   -5.00    3.00    0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+    6.00    0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+    0
+# nvcnf
+#   n    l    f
+
+
+Reference configufation results
+  iterations    28
+  all-electron total energy (Ha)   -1.27018536D+03
+
+Begin loop to  construct optimized pseudo wave functions
+and semi-local pseudopoentials for all angular momenta
+
+First projector wave function outermost peak radius =  0.696, l= 0
+
+All-electron projector functions [0,rc] norms and overlap, l= 0
+  qq(1,1)=  0.99819551  qq(1,2)= -0.02322368  qq(2,2)=  0.22876333
+
+
+Calculating first optimized projector for l=   0
+
+    Constraint consistency test
+      pswf0 val/der aewf val/der     diff
+        0.04493095    0.04493095   -6.19D-14
+       -0.12943100   -0.12943100    4.05D-15
+        0.37337961    0.37337961    5.55D-16
+       -1.07310384   -1.07310384    1.13D-13
+        3.03741626    3.03741626    2.97D-13
+
+    Fraction of norm inside rc  0.998196
+    Optimizing pswf for qcut= 6.68 a_B^-1,  ecut=22.31 Ha
+    q_infinity defining residual KE= 20.00  (E_inf=  200.0 Ha)
+    Residual KE error=  1.22D-07 Ha
+
+    Total kinetic energy consistency test
+      Fourier integration compared to d^2/dr^2 integral
+      Fourier  1.62770229  r-space=  1.62770199  ratio=  1.00000019
+    Potential consistency test at r_c
+      vpsp= -0.66194817  vae= -0.66176953  difference=  1.79D-04
+
+    Energy error per electron        Cutoff
+         Ha          eV             Ha
+         0.01000     0.27211       10.18
+         0.00100     0.02721       13.44
+         0.00010     0.00272       16.27
+         0.00001     0.00027       18.64
+
+Calculating second optimized projector for l=   0
+
+    Constraint consistency test
+      pswf0 val/der aewf val/der     diff
+        0.29311920    0.29311920    6.11D-16
+       -0.07327275   -0.07327275    1.09D-13
+       -0.19947714   -0.19947714   -7.78D-14
+        0.63238979    0.63238979    1.24D-13
+       -1.45122481   -1.45122481    4.28D-13
+       -0.02322368   -0.02322368    1.42D-15
+
+    Fraction of norm inside rc  0.228763
+    Optimizing pswf for qcut= 6.68 a_B^-1,  ecut=22.31 Ha
+    q_infinity defining residual KE= 20.00  (E_inf=  200.0 Ha)
+    Residual KE error=  1.79D-06 Ha
+
+    Total kinetic energy consistency test
+      Fourier integration compared to d^2/dr^2 integral
+      Fourier  0.39440819  r-space=  0.39440817  ratio=  1.00000005
+    Potential consistency test at r_c
+    "vpsp"= -0.66177286  vae= -0.66176953  difference=  3.33D-06
+
+    Energy error per electron        Cutoff
+         Ha          eV             Ha
+         0.01000     0.27211        7.00
+         0.00100     0.02721       10.09
+         0.00010     0.00272       12.56
+         0.00001     0.00027       14.82
+wellstate: ERROR well potential iteration failed to converge, n=  4 l=  1
