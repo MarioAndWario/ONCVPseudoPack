@@ -9,6 +9,7 @@
   spin-orbit coupling.
 * PseudoDojo PPs are simply downloaded from their website.
 * These PPs are good for GW calculations where norm-conserving condition is required.
+* You can customize the exchange-correlation functionals and ONCVPSP version in the foundary directory.
 
 ## References
 
