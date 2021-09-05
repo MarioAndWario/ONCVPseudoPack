@@ -1,0 +1,1 @@
+Pseudopotential files downloaded from http://www.pseudo-dojo.org
