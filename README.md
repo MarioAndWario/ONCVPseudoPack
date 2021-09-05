@@ -12,9 +12,9 @@
 
 ## References
 
-* D. R. Hamann, Phys. Rev. B 88, 085117 (2013)
-* M. Schlipf and F. Gygi, Computer Physics Communications 196, 36 (2015).
-* P. Scherpelz, M. Govoni, I. Hamada, G. Galli; J. Chem. Theory Comput. (2016)
+* D. R. Hamann, Phys. Rev. B 88, 085117 (2013).
+* M. Schlipf and F. Gygi, Comput. Phys. Commun. 196, 36 (2015).
+* P. Scherpelz, M. Govoni, I. Hamada, G. Galli, J. Chem. Theory Comput. 12, 3523 (2016).
 * http://www.quantum-simulation.org/potentials/sg15_oncv/
 * https://www.abinit.org/psp-tables
 * http://www.pseudo-dojo.org
